@@ -59,6 +59,7 @@
     "@webcomponents/custom-elements": "^1.2.0",
     "core-js": "^2.5.4",
     "deepmerge": "^2.1.1",
+    "dragula-with-animation": "^3.7.4",
     "ngx-logger": "^3.3.13",
     "path": "^0.12.7",
     "process": "^0.11.10",

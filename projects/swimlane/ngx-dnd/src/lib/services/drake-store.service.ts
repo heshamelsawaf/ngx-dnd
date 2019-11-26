@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import * as dragulaNamespace from '@swimlane/dragula';
+import * as dragulaNamespace from 'dragula-with-animation';
 import { DroppableDirective } from '../directives/ngx-droppable.directive';
 import { DraggableDirective } from '../directives/ngx-draggable.directive';
 
@@ -22,7 +22,7 @@ export class DrakeStoreService {
   constructor() {
     this.dragulaOptions = this.createDrakeOptions();
     this.drake = dragula([], this.dragulaOptions);
-    this.registerEvents();    
+    this.registerEvents();
   }
 
   register(droppable: DroppableDirective) {
